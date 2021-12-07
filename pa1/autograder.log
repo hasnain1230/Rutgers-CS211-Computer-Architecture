@@ -1,0 +1,430 @@
+2021-11-06 00:00:05,891 INFO     Starting autograder PA1 release 1. Library 3.2.0
+2021-11-06 00:00:05,892 DEBUG    Data directory: '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data'
+2021-11-06 00:00:05,892 DEBUG    Verbosity level: 0
+2021-11-06 00:00:05,892 DEBUG    Source directory: '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/src'
+2021-11-06 00:00:05,892 DEBUG    Build directory: '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build'
+2021-11-06 00:00:05,892 DEBUG    gather phase
+2021-11-06 00:00:05,892 INFO     Gathering tests for 'yell'
+2021-11-06 00:00:05,893 DEBUG    Opening tests file: '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/yell/tests.txt'
+2021-11-06 00:00:05,893 INFO     Total tests for yell: 5
+2021-11-06 00:00:05,893 INFO     Gathering tests for 'rle'
+2021-11-06 00:00:05,893 DEBUG    Opening tests file: '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/rle/tests.txt'
+2021-11-06 00:00:05,893 INFO     Total tests for rle: 8
+2021-11-06 00:00:05,893 INFO     Gathering tests for 'balance'
+2021-11-06 00:00:05,893 DEBUG    Opening tests file: '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/balance/tests1.txt'
+2021-11-06 00:00:05,894 DEBUG    Opening tests file: '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/balance/tests2.txt'
+2021-11-06 00:00:05,894 INFO     Total tests for balance: 10
+2021-11-06 00:00:05,894 INFO     Gathering tests for 'list'
+2021-11-06 00:00:05,896 INFO     Total tests for list: 5
+2021-11-06 00:00:05,896 INFO     Gathering tests for 'mexp'
+2021-11-06 00:00:05,897 INFO     Total tests for mexp: 5
+2021-11-06 00:00:05,897 INFO     Gathering tests for 'bst'
+2021-11-06 00:00:05,899 INFO     Total tests for bst: 10
+2021-11-06 00:00:05,899 INFO     Total tests: 43
+2021-11-06 00:00:05,899 DEBUG    build_dir prep phase
+2021-11-06 00:00:05,901 DEBUG    build phase
+2021-11-06 00:00:05,901 DEBUG    Running ['make']
+2021-11-06 00:00:05,905 DEBUG    Response
+make: 'yell' is up to date.
+
+2021-11-06 00:00:05,905 DEBUG    Running ['make']
+2021-11-06 00:00:05,909 DEBUG    Response
+make: 'rle' is up to date.
+
+2021-11-06 00:00:05,909 DEBUG    Running ['make']
+2021-11-06 00:00:05,913 DEBUG    Response
+make: 'balance' is up to date.
+
+2021-11-06 00:00:05,913 DEBUG    Running ['make']
+2021-11-06 00:00:05,917 DEBUG    Response
+make: 'list' is up to date.
+
+2021-11-06 00:00:05,918 DEBUG    Running ['make']
+2021-11-06 00:00:05,921 DEBUG    Response
+make: 'mexp' is up to date.
+
+2021-11-06 00:00:05,922 DEBUG    Running ['make']
+2021-11-06 00:00:05,925 DEBUG    Response
+make: 'bst' is up to date.
+
+2021-11-06 00:00:05,925 DEBUG    test phase
+2021-11-06 00:00:05,925 DEBUG    Running yell: ['./yell', 'hello']
+2021-11-06 00:00:05,926 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/yell'
+2021-11-06 00:00:05,939 DEBUG    Complete. Code 0
+HELLO!!
+
+2021-11-06 00:00:05,939 DEBUG    Running yell: ['./yell', 'I like NASA']
+2021-11-06 00:00:05,939 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/yell'
+2021-11-06 00:00:05,952 DEBUG    Complete. Code 0
+I LIKE NASA!!
+
+2021-11-06 00:00:05,952 DEBUG    Running yell: ['./yell', '']
+2021-11-06 00:00:05,952 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/yell'
+2021-11-06 00:00:05,964 DEBUG    Complete. Code 0
+
+2021-11-06 00:00:05,964 DEBUG    Running yell: ['./yell', 'How do you do, fellow kids?']
+2021-11-06 00:00:05,964 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/yell'
+2021-11-06 00:00:05,977 DEBUG    Complete. Code 0
+HOW DO YOU DO, FELLOW KIDS?!!
+
+2021-11-06 00:00:05,977 DEBUG    Running yell: ['./yell', 'AAA']
+2021-11-06 00:00:05,977 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/yell'
+2021-11-06 00:00:05,989 DEBUG    Complete. Code 0
+AAA!!
+
+2021-11-06 00:00:05,989 DEBUG    Running rle: ['./rle', 'aaaaabbbbccde']
+2021-11-06 00:00:05,990 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/rle'
+2021-11-06 00:00:06,002 DEBUG    Complete. Code 0
+a5b4c2d1e1
+2021-11-06 00:00:06,002 DEBUG    Running rle: ['./rle', 'AAbbCCCCdCCCC']
+2021-11-06 00:00:06,002 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/rle'
+2021-11-06 00:00:06,015 DEBUG    Complete. Code 0
+A2b2C4d1C4
+2021-11-06 00:00:06,015 DEBUG    Running rle: ['./rle', 'zzzzzzzzzzzzzvvzzzzzzz']
+2021-11-06 00:00:06,015 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/rle'
+2021-11-06 00:00:06,028 DEBUG    Complete. Code 0
+z13v2z7
+2021-11-06 00:00:06,028 DEBUG    Running rle: ['./rle', 'aa']
+2021-11-06 00:00:06,028 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/rle'
+2021-11-06 00:00:06,045 DEBUG    Complete. Code 0
+a2
+2021-11-06 00:00:06,045 DEBUG    Running rle: ['./rle', 'CCCPO']
+2021-11-06 00:00:06,045 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/rle'
+2021-11-06 00:00:06,057 DEBUG    Complete. Code 0
+CCCPO
+2021-11-06 00:00:06,057 DEBUG    Running rle: ['./rle', 'a1b2']
+2021-11-06 00:00:06,057 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/rle'
+2021-11-06 00:00:06,080 DEBUG    Complete. Code 0
+error
+
+2021-11-06 00:00:06,081 DEBUG    Running rle: ['./rle', '']
+2021-11-06 00:00:06,081 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/rle'
+2021-11-06 00:00:06,093 DEBUG    Complete. Code 0
+
+2021-11-06 00:00:06,093 DEBUG    Running rle: ['./rle', '#####!!@@$$%%^^&&**(())--__++==<<>>,,..//??;;::\'\'""[[]]{{}}\\\\||``~~']
+2021-11-06 00:00:06,093 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/rle'
+2021-11-06 00:00:06,105 DEBUG    Complete. Code 0
+#5!2@2$2%2^2&2*2(2)2-2_2+2=2<2>2,2.2/2?2;2:2'2"2[2]2{2}2\2|2`2~2
+2021-11-06 00:00:06,105 DEBUG    Running balance: ['./balance', '(foo)']
+2021-11-06 00:00:06,105 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/balance'
+2021-11-06 00:00:06,118 DEBUG    Complete. Code 0
+
+2021-11-06 00:00:06,118 DEBUG    Running balance: ['./balance', '((()))']
+2021-11-06 00:00:06,118 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/balance'
+2021-11-06 00:00:06,131 DEBUG    Complete. Code 0
+
+2021-11-06 00:00:06,131 DEBUG    Running balance: ['./balance', '([{}])']
+2021-11-06 00:00:06,131 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/balance'
+2021-11-06 00:00:06,142 DEBUG    Complete. Code 0
+
+2021-11-06 00:00:06,143 DEBUG    Running balance: ['./balance', '(()()[|])']
+2021-11-06 00:00:06,143 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/balance'
+2021-11-06 00:00:06,155 DEBUG    Complete. Code 0
+
+2021-11-06 00:00:06,155 DEBUG    Running balance: ['./balance', 'foo(bar[baz], buf{%19});']
+2021-11-06 00:00:06,155 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/balance'
+2021-11-06 00:00:06,169 DEBUG    Complete. Code 0
+
+2021-11-06 00:00:06,169 DEBUG    Running balance: ['./balance', '(()']
+2021-11-06 00:00:06,169 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/balance'
+2021-11-06 00:00:06,181 DEBUG    Complete. Code 1
+open: )
+2021-11-06 00:00:06,181 DEBUG    Running balance: ['./balance', '(((((()))))))']
+2021-11-06 00:00:06,181 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/balance'
+2021-11-06 00:00:06,194 DEBUG    Complete. Code 1
+12: )
+2021-11-06 00:00:06,194 DEBUG    Running balance: ['./balance', '([)]']
+2021-11-06 00:00:06,194 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/balance'
+2021-11-06 00:00:06,206 DEBUG    Complete. Code 1
+2: )
+2021-11-06 00:00:06,206 DEBUG    Running balance: ['./balance', '([([{{[((']
+2021-11-06 00:00:06,206 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/balance'
+2021-11-06 00:00:06,219 DEBUG    Complete. Code 1
+open: ))]}}])])
+2021-11-06 00:00:06,219 DEBUG    Running balance: ['./balance', '(((((})))))']
+2021-11-06 00:00:06,219 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/balance'
+2021-11-06 00:00:06,231 DEBUG    Complete. Code 1
+5: }
+2021-11-06 00:00:06,231 DEBUG    Running list: ['./list']
+2021-11-06 00:00:06,231 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/list'
+2021-11-06 00:00:06,233 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/list/test.01.txt'
+2021-11-06 00:00:06,243 DEBUG    Complete. Code 0
+1 : 11
+2 : 11 14
+3 : 1 11 14
+4 : 1 2 11 14
+5 : 0 1 2 11 14
+4 : 0 1 2 11
+
+2021-11-06 00:00:06,243 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/list/ref.01.txt'
+2021-11-06 00:00:06,249 DEBUG    out 6 lines; ref 6 lines
+2021-11-06 00:00:06,249 DEBUG    Running list: ['./list']
+2021-11-06 00:00:06,249 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/list'
+2021-11-06 00:00:06,251 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/list/test.02.txt'
+2021-11-06 00:00:06,261 DEBUG    Complete. Code 0
+1 : 1
+1 : 1
+2 : 1 2
+2 : 1 2
+1 : 2
+2 : 2 20000
+
+2021-11-06 00:00:06,261 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/list/ref.02.txt'
+2021-11-06 00:00:06,261 DEBUG    out 6 lines; ref 6 lines
+2021-11-06 00:00:06,262 DEBUG    Running list: ['./list']
+2021-11-06 00:00:06,262 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/list'
+2021-11-06 00:00:06,263 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/list/test.03.txt'
+2021-11-06 00:00:06,274 DEBUG    Complete. Code 0
+0 :
+0 :
+0 :
+1 : 20
+0 :
+1 : 20
+2 : 20 25
+1 : 25
+
+2021-11-06 00:00:06,274 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/list/ref.03.txt'
+2021-11-06 00:00:06,274 DEBUG    out 8 lines; ref 8 lines
+2021-11-06 00:00:06,274 DEBUG    Running list: ['./list']
+2021-11-06 00:00:06,274 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/list'
+2021-11-06 00:00:06,276 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/list/test.04.txt'
+2021-11-06 00:00:06,286 DEBUG    Complete. Code 0
+1 : 7
+2 : 7 9
+3 : 5 7 9
+4 : 5 7 9 11
+5 : 3 5 7 9 11
+6 : 3 5 6 7 9 11
+7 : 3 5 6 7 8 9 11
+7 : 3 5 6 7 8 9 11
+6 : 5 6 7 8 9 11
+5 : 6 7 8 9 11
+4 : 6 8 9 11
+
+2021-11-06 00:00:06,286 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/list/ref.04.txt'
+2021-11-06 00:00:06,286 DEBUG    out 11 lines; ref 11 lines
+2021-11-06 00:00:06,287 DEBUG    Running list: ['./list']
+2021-11-06 00:00:06,287 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/list'
+2021-11-06 00:00:06,288 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/list/test.05.txt'
+2021-11-06 00:00:06,299 DEBUG    Complete. Code 0
+1 : 1000
+0 :
+1 : 100
+0 :
+1 : 4
+2 : 4 5
+3 : 4 5 6
+4 : 4 5 6 8
+5 : 3 4 5 6 8
+6 : 2 3 4 5 6 8
+7 : 1 2 3 4 5 6 8
+6 : 1 2 3 5 6 8
+5 : 1 2 3 6 8
+4 : 1 2 3 8
+
+2021-11-06 00:00:06,299 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/list/ref.05.txt'
+2021-11-06 00:00:06,300 DEBUG    out 14 lines; ref 14 lines
+2021-11-06 00:00:06,300 DEBUG    Running mexp: ['./mexp', '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/mexp/test.01.txt']
+2021-11-06 00:00:06,300 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/mexp'
+2021-11-06 00:00:06,317 DEBUG    Complete. Code 0
+16 0
+0 81
+
+2021-11-06 00:00:06,318 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/mexp/ref.01.txt'
+2021-11-06 00:00:06,318 DEBUG    out 2 lines; ref 2 lines
+2021-11-06 00:00:06,318 DEBUG    Running mexp: ['./mexp', '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/mexp/test.02.txt']
+2021-11-06 00:00:06,318 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/mexp'
+2021-11-06 00:00:06,331 DEBUG    Complete. Code 0
+512 512
+512 512
+
+2021-11-06 00:00:06,331 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/mexp/ref.02.txt'
+2021-11-06 00:00:06,331 DEBUG    out 2 lines; ref 2 lines
+2021-11-06 00:00:06,332 DEBUG    Running mexp: ['./mexp', '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/mexp/test.03.txt']
+2021-11-06 00:00:06,332 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/mexp'
+2021-11-06 00:00:06,344 DEBUG    Complete. Code 0
+468 576 684
+1062 1305 1548
+1656 2034 2412
+
+2021-11-06 00:00:06,345 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/mexp/ref.03.txt'
+2021-11-06 00:00:06,345 DEBUG    out 3 lines; ref 3 lines
+2021-11-06 00:00:06,345 DEBUG    Running mexp: ['./mexp', '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/mexp/test.04.txt']
+2021-11-06 00:00:06,345 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/mexp'
+2021-11-06 00:00:06,358 DEBUG    Complete. Code 0
+61088 61024 60960 60896
+29088 29024 28960 28896
+18912 18976 19040 19104
+50912 50976 51040 51104
+
+2021-11-06 00:00:06,358 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/mexp/ref.04.txt'
+2021-11-06 00:00:06,358 DEBUG    out 4 lines; ref 4 lines
+2021-11-06 00:00:06,359 DEBUG    Running mexp: ['./mexp', '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/mexp/test.05.txt']
+2021-11-06 00:00:06,359 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/mexp'
+2021-11-06 00:00:06,372 DEBUG    Complete. Code 0
+144
+
+2021-11-06 00:00:06,372 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/mexp/ref.05.txt'
+2021-11-06 00:00:06,372 DEBUG    out 1 lines; ref 1 lines
+2021-11-06 00:00:06,372 DEBUG    Running bst:1: ['./bst']
+2021-11-06 00:00:06,372 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/bst'
+2021-11-06 00:00:06,374 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/test.1.01.txt'
+2021-11-06 00:00:06,384 DEBUG    Complete. Code 0
+inserted
+not inserted
+absent
+
+2021-11-06 00:00:06,384 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/ref.1.01.txt'
+2021-11-06 00:00:06,385 DEBUG    out 3 lines; ref 3 lines
+2021-11-06 00:00:06,385 DEBUG    Running bst:1: ['./bst']
+2021-11-06 00:00:06,385 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/bst'
+2021-11-06 00:00:06,386 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/test.1.02.txt'
+2021-11-06 00:00:06,396 DEBUG    Complete. Code 0
+inserted
+inserted
+inserted
+inserted
+absent
+present
+present
+
+2021-11-06 00:00:06,397 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/ref.1.02.txt'
+2021-11-06 00:00:06,397 DEBUG    out 7 lines; ref 7 lines
+2021-11-06 00:00:06,397 DEBUG    Running bst:1: ['./bst']
+2021-11-06 00:00:06,397 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/bst'
+2021-11-06 00:00:06,399 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/test.1.03.txt'
+2021-11-06 00:00:06,409 DEBUG    Complete. Code 0
+inserted
+inserted
+absent
+inserted
+not inserted
+present
+
+2021-11-06 00:00:06,410 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/ref.1.03.txt'
+2021-11-06 00:00:06,410 DEBUG    out 6 lines; ref 6 lines
+2021-11-06 00:00:06,410 DEBUG    Running bst:1: ['./bst']
+2021-11-06 00:00:06,410 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/bst'
+2021-11-06 00:00:06,411 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/test.1.04.txt'
+2021-11-06 00:00:06,422 DEBUG    Complete. Code 0
+
+inserted
+inserted
+inserted
+((1(2))3)
+inserted
+inserted
+inserted
+((1(2))3((4)5(6)))
+
+2021-11-06 00:00:06,422 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/ref.1.04.txt'
+2021-11-06 00:00:06,422 DEBUG    out 9 lines; ref 9 lines
+2021-11-06 00:00:06,422 DEBUG    Running bst:1: ['./bst']
+2021-11-06 00:00:06,422 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/bst'
+2021-11-06 00:00:06,424 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/test.1.05.txt'
+2021-11-06 00:00:06,435 DEBUG    Complete. Code 0
+inserted
+inserted
+absent
+((5)10)
+inserted
+not inserted
+present
+((5(8))10)
+
+2021-11-06 00:00:06,435 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/ref.1.05.txt'
+2021-11-06 00:00:06,435 DEBUG    out 8 lines; ref 8 lines
+2021-11-06 00:00:06,435 DEBUG    Running bst:2: ['./bst']
+2021-11-06 00:00:06,435 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/bst'
+2021-11-06 00:00:06,437 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/test.2.01.txt'
+2021-11-06 00:00:06,447 DEBUG    Complete. Code 0
+inserted
+inserted
+deleted
+present
+absent
+
+2021-11-06 00:00:06,447 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/ref.2.01.txt'
+2021-11-06 00:00:06,447 DEBUG    out 5 lines; ref 5 lines
+2021-11-06 00:00:06,447 DEBUG    Running bst:2: ['./bst']
+2021-11-06 00:00:06,447 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/bst'
+2021-11-06 00:00:06,449 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/test.2.02.txt'
+2021-11-06 00:00:06,460 DEBUG    Complete. Code 0
+inserted
+inserted
+inserted
+inserted
+inserted
+inserted
+inserted
+deleted
+absent
+present
+present
+present
+absent
+present
+present
+present
+absent
+absent
+inserted
+
+2021-11-06 00:00:06,460 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/ref.2.02.txt'
+2021-11-06 00:00:06,460 DEBUG    out 19 lines; ref 19 lines
+2021-11-06 00:00:06,460 DEBUG    Running bst:2: ['./bst']
+2021-11-06 00:00:06,460 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/bst'
+2021-11-06 00:00:06,462 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/test.2.03.txt'
+2021-11-06 00:00:06,473 DEBUG    Complete. Code 0
+inserted
+inserted
+absent
+((5)10)
+inserted
+absent
+((5(8))10)
+deleted
+((8)10)
+
+2021-11-06 00:00:06,473 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/ref.2.03.txt'
+2021-11-06 00:00:06,473 DEBUG    out 9 lines; ref 9 lines
+2021-11-06 00:00:06,473 DEBUG    Running bst:2: ['./bst']
+2021-11-06 00:00:06,473 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/bst'
+2021-11-06 00:00:06,475 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/test.2.04.txt'
+2021-11-06 00:00:06,485 DEBUG    Complete. Code 0
+inserted
+deleted
+absent
+inserted
+inserted
+inserted
+deleted
+present
+absent
+present
+inserted
+deleted
+present
+absent
+absent
+present
+
+2021-11-06 00:00:06,485 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/ref.2.04.txt'
+2021-11-06 00:00:06,486 DEBUG    out 16 lines; ref 16 lines
+2021-11-06 00:00:06,486 DEBUG    Running bst:2: ['./bst']
+2021-11-06 00:00:06,486 DEBUG    Moving to '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/build/bst'
+2021-11-06 00:00:06,487 DEBUG    Opening input file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/test.2.05.txt'
+2021-11-06 00:00:06,498 DEBUG    Complete. Code 0
+absent
+inserted
+absent
+inserted
+absent
+deleted
+absent
+present
+
+2021-11-06 00:00:06,498 DEBUG    Opening reference file '/common/home/ha430/Desktop/CS Assignments/Computer Architecture/pa1/data/bst/ref.2.05.txt'
+2021-11-06 00:00:06,498 DEBUG    out 8 lines; ref 8 lines
+2021-11-06 00:00:06,498 DEBUG    report phase
